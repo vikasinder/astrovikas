@@ -1,0 +1,1061 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Engagement&display=swap');
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Oswald' sans-serif;
+    font-size: 16px;
+}
+
+/* special margins and paddings */
+
+h1, h2, h3 {
+    margin: 0px;
+}
+
+iframe, article, footer, header, nav, section, fieldset {
+    display: block;
+}
+
+:root {
+    --pink: #ff4081;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/* Header Section */
+
+header {
+    margin: 0;
+}
+
+.heading {
+    margin-left: 50px;
+}
+
+.logo {
+    background: url(../images/circle-cropped.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    min-height: 200px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+#topbar {
+    background: #545454;
+    padding: 10px 0;
+    font-size: 16px;
+}
+
+#topbar .contact-info i {
+    font-style: normal;
+    color: #e96b56;
+}
+
+#topbar .contact-info i a, #topbar .contact-info i span {
+    padding-left: 5px;
+    color: #fff;
+}
+
+#topbar .contact-info i a {
+    line-height: 0;
+    transition: 0.3s;
+}
+
+#topbar .contact-info i a:hover {
+    color: #e96b56;
+}
+
+#topbar .social-links a {
+    color: #bababa;
+    line-height: 0;
+    transition: 0.3s;
+    margin-left: 10px;
+}
+
+#topbar .social-links a:hover {
+    color: white;
+}
+
+.bg-color-title {
+    background-color: #676767;
+}
+
+.name {
+    font-family: 'Montserrat', Times, serif;
+    margin-top: 20px;
+    font-size: 300%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 15px #000;
+    color: #ff4081;
+    font-weight: bolder;
+}
+
+.vedic {
+    font-family: 'Montserrat', Times, serif;
+    font-weight: 200;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #fff;
+    text-shadow: 1px 1px 15px #000;
+}
+
+/* Navigation Menu */
+
+.ui-color-menu-home {
+    background-color: #e67e22;
+}
+
+.ui-color-menu-about {
+    background-color: #9b59b6;
+}
+
+.ui-color-menu-service {
+    background-color: #3498db;
+}
+
+.ui-color-menu-contact {
+    background-color: #525252;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav {
+    margin: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
+}
+
+.menuitem {
+    height: 80px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    height: 80px;
+}
+
+.menuitem a i {
+    padding-top: 16px;
+    display: block;
+    color: #fafafa;
+    font-size: 26px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+/* Zodiac section */
+
+/* Crousel Section */
+
+/* crousel section */
+
+.padding-margin {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#crousel {
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, 0.1);
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 66%;
+    transform: translateY(-50%);
+}
+
+.carousel-caption h1 {
+    font-size: 250%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 15px #000;
+    color: #ff4081;
+    font-weight: bolder;
+}
+
+.carousel-caption h3 {
+    font-size: 150%;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 10px #000;
+    padding-bottom: 1rem;
+}
+
+.lead {
+    margin-top: 20px;
+}
+
+.zodiac-box h3 {
+    font-size: 16px;
+    font-family: 'Engagement', cursive;
+}
+
+.zodiac-box {
+    background-color: #ffe7f2;
+}
+
+.zodiac-box img:hover {
+    background-color: #d388a6;
+}
+
+/* Index page Jyotish Section */
+
+/* Featured-one Section --- That conatins tarot reading/ horoscope reading / vastu reading */
+
+#featured_one {
+    padding: 7% 15%;
+    margin-bottom: 150px;
+}
+
+.featured_box {
+    text-align: center;
+}
+
+.featured_box h3 {
+    font-family: 'Engagement', cursive;
+    font-size: 50px;
+}
+
+.featured_box p {
+    color: #8f8f8f;
+    font-size: 16px;
+}
+
+.icon {
+    color: #ff4081;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: rgba(0, 0, 0, 0.10);
+    margin-bottom: 1rem;
+}
+
+/* Know Me Section */
+
+.welcome {
+    margin: 30px 0px;
+}
+
+.welcome-heading p {
+    font-size: 16px !important;
+}
+
+.welcome-heading h2 {
+    font-family: 'Engagement', cursive;
+    font-weight: bold;
+    color: #ff4081;
+}
+
+/* Featured Section */
+
+.featured {
+    margin-top: 70px;
+}
+
+.featured .icon-box {
+    padding: 15px 5px;
+    margin: auto;
+    box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    background: #fff;
+    margin: 15px 20px;
+}
+
+.featured .icon-box i {
+    color: #e96b56;
+    font-size: 42px;
+    margin-bottom: 15px;
+    display: block;
+    line-height: 0;
+}
+
+.featured .icon-box h3 {
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.featured .icon-box h3 a {
+    color: #545454;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.featured .icon-box p {
+    color: #545454;
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.featured .icon-box:hover {
+    background: #e96b56;
+}
+
+.featured .icon-box:hover i, .featured .icon-box:hover h3 a, .featured .icon-box:hover p {
+    color: #fff;
+}
+
+/* Social Conatct Section */
+
+.connect {
+    margin-top: 50px !important;
+    color: #ff4081;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 3px #000;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.social-networks a {
+    font-size: 4.5em;
+    padding: 3rem;
+}
+
+.social-networks ul li {
+    list-style-type: none;
+}
+
+.fa-facebook {
+    color: #00acad;
+}
+
+.fa-twitter-square {
+    color: #dd4b39;
+}
+
+.fa-instagram {
+    color: #517fa8;
+}
+
+.fa-youtube-square:hover, .fa-facebook:hover, .fa-twitter-square:hover, .fa-instagram:hover {
+    color: #d5d5d5;
+}
+
+.fa-youtube-square {
+    color: #bb0000;
+}
+
+/* Footer Section */
+
+.footer {
+    font-family: 'Exo', Times, serif;
+    background-color: #525252;
+    min-height: 5px;
+    margin: 10px;
+    padding: 5% 5%;
+    text-align: center;
+}
+
+.footer ul {
+    list-style-type: none;
+    padding-left: 5px;
+}
+
+.footer ul li {
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    font-size: 16px;
+}
+
+.footer ul li a {
+    color: #ff4081;
+}
+
+.footer ul li a:hover {
+    color: #d5d5d5;
+}
+
+.general {
+    font-family: 'Exo', Times, serif;
+    color: #fafafa;
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+#copyright {
+    font-size: medium;
+    font-weight: 200;
+    text-transform: uppercase;
+    color: #ff4081;
+}
+
+/*********************** Services Page ******************************/
+
+/* Services */
+
+/* Srvices Box */
+
+.services-offer {
+    color: #ff4081;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 3px #000;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.services_box-l {
+    border-left: 3px solid #333;
+}
+
+.services_box-r {
+    border-right: 3px solid #333;
+}
+
+.img-responsive {
+    max-width: 70%;
+    /* or to whatever you want here */
+    max-height: auto;
+}
+
+/*********************** About Us Page ******************************/
+
+/* Three reason section */
+
+.section-heading {
+    font-size: 20px;
+    color: #ff4081;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.three-reason-icon {
+    font-size: 14px;
+    color: #ff4081;
+}
+
+.three-reason-heading {
+    margin-bottom: 15px;
+}
+
+.bg-color-personal-info {
+    background-color: #fdecf6;
+}
+
+.section-column {
+    border-right: 3px solid #333;
+}
+
+/* Personal Information Section */
+
+/* Personal info item */
+
+.image-welcome {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    max-width: 70%;
+    max-height: auto;
+}
+
+.personal-info-item {
+    margin-bottom: 20px;
+    display: block;
+    clear: both;
+}
+
+.personal-info-item .key, .personal-info-item .value {
+    padding-right: 8px;
+    display: inline-block;
+}
+
+.personal-info-item .key p, .personal-info-item .key p {
+    margin: 0px;
+}
+
+.personal-info-item .key {
+    width: 30%;
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top;
+}
+
+.personal-info-item .key p {
+    font-weight: 700;
+}
+
+.personal-info-item .value {
+    position: relative;
+    width: 60%;
+}
+
+/* ---------------------------------------Contact page */
+
+.contact-Lady {
+    max-width: 70%;
+    /* or to whatever you want here */
+    max-height: 70%;
+    margin-top: 10%;
+}
+
+.contact-icon {
+    max-width: 40%;
+    /* or to whatever you want here */
+    max-height: 30%;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #e84610;
+}
+
+/************************************** Media Quries *****************************************/
+
+/* ****************** For Screen 992px and bigger ***************************/
+
+@media only screen and (max-width: 1200px) and (min-width: 992px) {
+    .carousel-caption {
+        top: 66%;
+    }
+    .carousel-caption h1 {
+        font-family: 'Montserrat', Times, serif;
+        font-size: 160%;
+        text-transform: uppercase;
+        color: #ff4081;
+        font-weight: bolder;
+    }
+    .carousel-caption h3 {
+        font-size: 150%;
+        font-weight: 300;
+        padding-bottom: .2rem;
+    }
+    .contact-Lady {
+        max-width: 70%;
+        /* or to whatever you want here */
+        max-height: 70%;
+        margin-top: 10%;
+    }
+    .contact-icon {
+        max-width: 40%;
+        /* or to whatever you want here */
+        max-height: 30%;
+    }
+    .center-form {
+        padding-top: 10px;
+        margin: 0 auto;
+        max-width: 70%;
+    }
+}
+
+/* ****************** For Screen 768px to 992px ***************************/
+
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+    .name {
+        font-size: 200%;
+        text-transform: uppercase;
+        text-shadow: 1px 1px 15px #000;
+        color: #ff4081;
+        font-weight: bolder;
+    }
+    .vedic {
+        font-family: 'Montserrat', Times, serif;
+        font-weight: 100;
+        font-size: 24px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        color: #fff;
+        text-shadow: 1px 1px 15px #000;
+    }
+    .social a {
+        font-size: 4em;
+        padding: 2rem;
+    }
+    .carousel-caption {
+        top: 64%;
+    }
+    .carousel-caption h1 {
+        font-size: 130%;
+        text-transform: uppercase;
+        color: #ff4081;
+        font-weight: bolder;
+    }
+    .carousel-caption h3 {
+        font-size: 110%;
+        font-weight: 300;
+        padding-bottom: .2rem;
+    }
+    .carousel-caption .btn {
+        font-size: 75%;
+        padding: 8px 14px;
+    }
+    .image-welcome {
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 5px;
+        max-width: 45%;
+        max-height: auto;
+    }
+    .connect {
+        margin-top: 50px !important;
+        color: #ff4081;
+        font-size: 30px;
+        text-transform: uppercase;
+        text-shadow: 1px 1px 3px #000;
+        font-weight: bolder;
+        text-align: center;
+    }
+    .services-offer {
+        color: #ff4081;
+        font-size: 30px;
+        text-transform: uppercase;
+        text-shadow: 1px 1px 3px #000;
+        font-weight: bolder;
+        text-align: center;
+    }
+    .social-networks a {
+        font-size: 4.0em;
+        padding: 1.5rem;
+    }
+    /* My services section */
+    .img-responsive {
+        min-width: 60%;
+    }
+    .contact-Lady {
+        margin-top: 30%;
+    }
+    .center-form {
+        padding-top: 10px;
+        margin: 0 auto;
+        max-width: 100%;
+        min-height: 200px;
+    }
+    .contact-Lady {
+        max-width: 90%;
+        /* or to whatever you want here */
+        max-height: 90%;
+    }
+    .contact-icon {
+        max-width: 30%;
+        /* or to whatever you want here */
+        max-height: 20%;
+    }
+    .welcome1 {
+        font-size: 32px!important;
+        margin: auto;
+    }
+    .center-form {
+        padding-top: 10px;
+        margin: 0 auto;
+        max-width: 80%;
+    }
+}
+
+/* ****************** For Screen 576px to 768px ***************************/
+
+@media only screen and (max-width: 768px) and (min-width: 576px) {
+    .name {
+        font-size: 160%;
+        text-transform: uppercase;
+        text-shadow: 1px 1px 15px #000;
+        color: #ff4081;
+        font-weight: bolder;
+    }
+    .vedic {
+        font-family: 'Montserrat', Times, serif;
+        font-weight: 100;
+        font-size: 18px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        color: #fff;
+        text-shadow: 1px 1px 15px #000;
+    }
+    #topbar {
+        font-size: 12px;
+    }
+    #topbar .social-links a:first-child {
+        margin-left: 50px;
+    }
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        visibility: hidden;
+    }
+    .carousel-caption {
+        top: 60%;
+    }
+    .carousel-caption h1 {
+        font-size: 90%;
+        text-transform: uppercase;
+        color: #ff4081;
+        font-weight: bolder;
+    }
+    .carousel-caption h3 {
+        font-size: 60%;
+        font-weight: 300;
+        padding-bottom: .2rem;
+    }
+    .carousel-caption .btn {
+        font-size: 50%;
+        padding: 8px 14px;
+    }
+    .dispaly-4 {
+        font-size: 100%;
+    }
+    .social a {
+        font-size: 2.5em;
+        padding: 1.2rem;
+    }
+    .welcome1 {
+        font-size: 24px!important;
+        margin: auto;
+    }
+    .welcome-heading p {
+        font-size: 16px !important;
+    }
+    .welcome-heading h2 {
+        font-size: 22px !important;
+    }
+    .featured_box h3 {
+        font-size: 40px;
+    }
+    .connect {
+        margin-top: 50px !important;
+        color: #ff4081;
+        font-size: 30px;
+        text-transform: uppercase;
+        text-shadow: 1px 1px 3px #000;
+        font-weight: bolder;
+        text-align: center;
+    }
+    .services-offer {
+        color: #ff4081;
+        font-size: 30px;
+        text-transform: uppercase;
+        text-shadow: 1px 1px 3px #000;
+        font-weight: bolder;
+        text-align: center;
+    }
+    .social-networks a {
+        font-size: 3.5em;
+        padding: 1.5rem;
+    }
+    /* My services section */
+    .img-responsive {
+        min-width: 100%;
+    }
+    .image-welcome {
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 5px;
+        max-width: 50%;
+        max-height: auto;
+    }
+    .center-form {
+        padding-top: 10px;
+        margin: 0 auto;
+        max-width: 100%;
+        min-height: 200px;
+    }
+    .contact-Lady {
+        max-width: 100%;
+        /* or to whatever you want here */
+        max-height: 100%;
+    }
+    .section-column {
+        border-right: none;
+    }
+    #copyright {
+        font-size: small;
+    }
+}
+
+/* ****************** For Screen 400px to 576px ***************************/
+
+@media only screen and (max-width: 576px) and (min-width: 400px) {
+    .name {
+        font-size: 130%;
+        text-transform: uppercase;
+        text-shadow: 1px 1px 15px #000;
+        color: #ff4081;
+        font-weight: bolder;
+    }
+    .vedic {
+        font-family: 'Montserrat', Times, serif;
+        font-weight: 100;
+        font-size: 14px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        color: #fff;
+        text-shadow: 1px 1px 15px #000;
+    }
+    #topbar {
+        font-size: 14px;
+    }
+    #topbar .contact-info i a, #topbar .contact-info i span {
+        padding-left: 2px;
+        color: #fff;
+    }
+    #topbar .contact-info i a {
+        line-height: 0;
+        transition: 0.3s;
+    }
+    #topbar .contact-info i a:hover {
+        color: #e96b56;
+    }
+    #topbar .social-links a:first-child {
+        margin-left: 30px;
+    }
+    #topbar .social-links a {
+        color: #bababa;
+        line-height: 0;
+        transition: 0.3s;
+        margin-left: 5px;
+    }
+    .carousel-caption {
+        top: 60%;
+    }
+    .carousel-caption h1 {
+        font-size: 70%;
+        text-transform: uppercase;
+        color: #ff4081;
+        font-weight: bolder;
+    }
+    .carousel-caption h3 {
+        font-size: 50%;
+        font-weight: 300;
+        padding-bottom: .2rem;
+    }
+    .carousel-caption .btn {
+        visibility: hidden;
+    }
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        visibility: hidden;
+    }
+    .welcome1 {
+        font-size: 20px!important;
+    }
+    .social a {
+        font-size: 1.5em;
+        padding: .8rem;
+    }
+    .icon-box h3 {
+        font-size: 14px !important;
+    }
+    .icon-box p {
+        font-size: 14px !important;
+    }
+    .jyotish {
+        font-size: 15px;
+    }
+    /* target icon to be small in extra small screens */
+    .fa-4x {
+        font-size: 3em!important;
+    }
+    .welcome-heading p {
+        font-size: 15px !important;
+    }
+    .welcome-heading h2 {
+        font-size: 20px !important;
+    }
+    .featured_box h3 {
+        font-size: 30px;
+    }
+    .connect {
+        margin-top: 50px !important;
+        color: #ff4081;
+        font-size: 25px;
+        text-transform: uppercase;
+        text-shadow: 1px 1px 3px #000;
+        font-weight: bolder;
+        text-align: center;
+    }
+    .services-offer {
+        color: #ff4081;
+        font-size: 25px;
+        text-transform: uppercase;
+        text-shadow: 1px 1px 3px #000;
+        font-weight: bolder;
+        text-align: center;
+    }
+    .social-networks a {
+        font-size: 3.0em;
+        padding: 1rem;
+    }
+    /* My services section */
+    .img-responsive {
+        min-width: 30%;
+    }
+    .image-welcome {
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 5px;
+        max-width: 60%;
+        max-height: auto;
+    }
+    .services_box-l {
+        border-left: none;
+    }
+    .services_box-r {
+        border-right: none;
+    }
+    .section-column {
+        border-right: none;
+    }
+    #copyright {
+        font-size: small;
+    }
+}
+
+/* ****************** For Screen upto 400px ***************************/
+
+@media only screen and (max-width: 400px) {
+    /* As in Extra small size the text gets overlapsed */
+    .mail, .phone {
+        visibility: hidden;
+    }
+    .name {
+        font-size: 100%;
+        text-transform: uppercase;
+        text-shadow: 1px 1px 15px #000;
+        color: #ff4081;
+        font-weight: bolder;
+    }
+    .vedic {
+        font-family: 'Montserrat', Times, serif;
+        font-weight: 100;
+        font-size: 10px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        color: #fff;
+        text-shadow: 1px 1px 15px #000;
+    }
+    .welcome1 {
+        font-size: 16px!important;
+        margin: auto;
+    }
+    .social-links a {
+        visibility: hidden;
+    }
+    .contact-info {
+        font-size: 12px;
+        font-weight: lighter;
+    }
+    /* target icon to be small in extra small screens */
+    .fa-4x {
+        font-size: 2em!important;
+    }
+    .icon-box h3 {
+        font-size: 12px !important;
+    }
+    .heart {
+        visibility: hidden;
+    }
+    .jyotish {
+        font-size: 14px;
+    }
+    .carousel-caption {
+        top: 60%;
+    }
+    .carousel-caption h1 {
+        font-size: 30%;
+        text-transform: uppercase;
+        color: #ff4081;
+        font-weight: bolder;
+    }
+    .carousel-caption h3 {
+        font-size: 25%;
+        font-weight: 300;
+        padding-bottom: .2rem;
+    }
+    .carousel-caption .btn {
+        visibility: hidden;
+    }
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        visibility: hidden;
+    }
+    .welcome-heading p {
+        font-size: 14px !important;
+    }
+    .welcome-heading h2 {
+        font-size: 18px !important;
+    }
+    .featured_box h3 {
+        font-size: 30px;
+    }
+    .connect {
+        margin-top: 50px !important;
+        color: #ff4081;
+        font-size: 25px;
+        text-transform: uppercase;
+        text-shadow: 1px 1px 3px #000;
+        font-weight: bolder;
+        text-align: center;
+    }
+    .services-offer {
+        color: #ff4081;
+        font-size: 25px;
+        text-transform: uppercase;
+        text-shadow: 1px 1px 3px #000;
+        font-weight: bolder;
+        text-align: center;
+    }
+    .social-networks a {
+        font-size: 2.5em;
+        padding: 1rem;
+    }
+    /* My services section */
+    .img-responsive {
+        min-width: 30%;
+    }
+    .image-welcome {
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 5px;
+        max-width: 60%;
+        max-height: auto;
+    }
+    .services_box-l {
+        border-left: none;
+    }
+    .services_box-r {
+        border-right: none;
+    }
+    .section-column {
+        border-right: none;
+    }
+    #copyright {
+        font-size: x-small;
+    }
+}
